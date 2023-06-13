@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+## Deployment Link : https://jolly-figolla-271fa4.netlify.app/
+
+## Environment Setup : 
+  Download vscode via https://code.visualstudio.com/download
+  choose appropriate link based on your system OS
+## Installing Node.....
+To install Node.js on your machine, you can follow these steps:
+
+1. Visit the official Node.js website at https://nodejs.org/.
+2. On the homepage, you will see two versions available for download: LTS (Long-Term Support) and Current. It is recommended to choose the LTS version for stability unless you have a specific reason to use the Current version.
+3. Click on the LTS button to download the installer for your operating system (Windows, macOS, or Linux).
+4. Once the installer is downloaded, run it and follow the installation instructions provided by the installer.
+5. During the installation, you may be asked to choose various options. The default settings should work fine for most users, so you can typically proceed with the default options.
+6. After the installation is complete, you can verify that Node.js is installed correctly by opening a command prompt or terminal and typing the following command:
+
+### node --version
+
+7. Additionally, you can also check the version of npm (Node Package Manager) by running the following command:
+
+### npm --version
+
+   This should display the version number of npm installed on your machine.
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
