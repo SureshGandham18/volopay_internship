@@ -1,0 +1,136 @@
+/* CardTabs container */
+body {
+  padding: 20px 100px;
+}
+/* CardTabs container */
+.card-tabs-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Tab buttons */
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab-buttons button.active {
+  font-weight: bold;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+/* Search input */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Filter container */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-container label {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.filter-container select {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Card container */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-header .card-type {
+  padding: 6px 12px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-left: 70%;
+}
+
+/* Card body */
+.card-body {
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Card footer */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-footer .status {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-footer .limit {
+  font-size: 14px;
+}
